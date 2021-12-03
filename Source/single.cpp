@@ -24,10 +24,10 @@ namespace single {
 					{
 						std::cout << "Number of nodes you want to create: " << endl;
 						std::cin >> n;
-						_box.ChangeSystemMessage(createlist(n));
+						__box.ChangeSystemMessage(createlist(n));
 					}
 					else {
-						_box.ChangeSystemMessage("List is already created...");
+						__box.ChangeSystemMessage("List is already created...");
 						_ch = menu();
 					}
 					break;

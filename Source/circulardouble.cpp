@@ -19,10 +19,10 @@ public:
 				{
 					cout << "\n Number of nodes you want to create: ";
 					cin >> n;
-					_box.ChangeSystemMessage(cdll_createlist(n));
+					__box.ChangeSystemMessage(cdll_createlist(n));
 				}
 				else {
-					_box.ChangeSystemMessage("List is already created...");
+					__box.ChangeSystemMessage("List is already created...");
 					ch = menu();
 				}
 				break;

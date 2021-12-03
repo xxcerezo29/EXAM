@@ -82,7 +82,7 @@ private:
 		{
 			string message;
 			message += _data;
-			__box.ChangeSystemMessage("Invalid Data to inputed: " + message + " |(note: Interger)...");
+			__box.ChangeSystemMessage("Invalid Data to inputed: " + message + " |(note: Intger)...");
 			return NULL;
 		}
 		else {
@@ -182,7 +182,7 @@ private:
 				}
 			}
 		}
-		return "List already exist...";
+		return "List Created...";
 
 	}
 	string cdll_display_left_right()

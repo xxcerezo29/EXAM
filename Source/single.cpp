@@ -32,25 +32,25 @@ namespace single {
 					}
 					break;
 				case 2:
-					_box.ChangeSystemMessage(insert_at_beg());
+					__box.ChangeSystemMessage(insert_at_beg());
 					break;
 				case 3:
-					_box.ChangeSystemMessage(insert_at_end());
+					__box.ChangeSystemMessage(insert_at_end());
 					break;
 				case 4:
-					_box.ChangeSystemMessage(insert_at_mid());
+					__box.ChangeSystemMessage(insert_at_mid());
 					break;
 				case 5:
-					_box.ChangeSystemMessage(delete_at_beg());
+					__box.ChangeSystemMessage(delete_at_beg());
 					break;
 				case 6:
-					_box.ChangeSystemMessage(delete_at_last());
+					__box.ChangeSystemMessage(delete_at_last());
 					break;
 				case 7:
-					_box.ChangeSystemMessage(delete_at_mid());
+					__box.ChangeSystemMessage(delete_at_mid());
 					break;
 				case 8:
-					_box.ChangeSystemMessage(traverse());
+					__box.ChangeSystemMessage(traverse());
 					break;
 				case 9:
 					std::cout << "\n The contents of List (Right to Left): \n";
@@ -62,12 +62,12 @@ namespace single {
 					if(start != NULL)
 					{
 						string message = "Number of nodes in the list: " + to_string(countnode(start));
-						_box.ChangeSystemMessage(message);
+						__box.ChangeSystemMessage(message);
 					}
 					else
 					{
 						//_box.systemMessage = "List of nodes doesn't exist...";
-						_box.ChangeSystemMessage("List of nodes doesn't exist...");
+						__box.ChangeSystemMessage("List of nodes doesn't exist...");
 
 					}
 					

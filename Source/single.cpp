@@ -221,10 +221,7 @@ namespace single {
 			string message2;
 			string message3;
 			if (start == NULL)
-			{
-				std::cout<< ChangeColor(FOREGROUND_RED) << "\n List is Empty";
 				return "List is Empty...";
-			}
 			else
 			{
 				cout << ChangeColor(FOREGROUND_BLUE) << " " << temp->data;
@@ -232,7 +229,6 @@ namespace single {
 				temp = temp->next;
 				while (temp != NULL)
 				{
-					std::cout << "->" << temp->data;
 					message3 += "->" + to_string(temp->data);
 					temp = temp->next;
 				}

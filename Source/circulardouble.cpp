@@ -203,7 +203,6 @@ private:
 			{
 				cout << "<->" << temp->data;
 				message3 += "<->" + to_string(temp->data);
-				/*cout << temp->data;*/
 				temp = temp->right;
 			}
 		}
@@ -217,7 +216,7 @@ private:
 		string message = "The contents of List(Right to Left) : ";
 		string message2;
 		if (start == NULL)
-			return "List is Empty";
+			return "Empty List";
 		else
 		{
 			do

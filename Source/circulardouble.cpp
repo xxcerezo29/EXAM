@@ -166,9 +166,7 @@ private:
 			{
 				newnode = getnode();
 				if (newnode == NULL)
-				{
 					return "Invalid Input Data";
-				}
 				if (start == NULL)
 				{
 					start = newnode;
@@ -184,8 +182,7 @@ private:
 				}
 			}
 		}
-		else
-			return "List already exist...";
+		return "List already exist...";
 
 	}
 	string cdll_display_left_right()

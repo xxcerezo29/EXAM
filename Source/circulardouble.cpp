@@ -216,7 +216,7 @@ private:
 		string message = "The contents of List(Right to Left) : ";
 		string message2;
 		if (start == NULL)
-			return "Empty List";
+			return "Empty List...";
 		else
 		{
 			do
